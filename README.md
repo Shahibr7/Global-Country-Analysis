@@ -30,3 +30,11 @@ The project directory is organised as follows to ensure easy access and manageme
 
 '/PowerBI Visualisation' - PowerBI visualisation file.
 
+## Methodology
+
+Initially, I obtained and downloaded the dataset from Kaggle. After downlaoding the data, I exported the file in Excel and scanned through the dataset, looking for missing columns, inconcistencies which I made sure to clean out before starting my analysis. I then ram basic SQL queries on MySQL to ensure the data has been loaded correctly. Examples of such queries were: SELECT * FROM Global_Countries LIMIT 10;
+
+## Results & Findings
+
+## Conclusion
+
