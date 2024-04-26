@@ -34,7 +34,7 @@ The project directory is organised as follows to ensure easy access and manageme
 
 Initially, I obtained and downloaded the dataset from Kaggle. After downlaoding the data, I exported the file in Excel and scanned through the dataset, looking for missing columns, inconcistencies which I made sure to clean out before starting my analysis. I then ram basic SQL queries on MySQL to ensure the data has been loaded correctly. Examples of such queries were: SELECT * FROM Global_Countries LIMIT 10;
 
-I ran into a problem when attempting to import the data onto MySQL. I set the datatype for a few columns as 'DECIMAL' however the actual data contained special chracters such as '%'. To resolve this issue, I divided the original data by 100 so that they are in decimal format instead. This enabled me to successfully import the data on MySQL.
+I ran into a problem when attempting to import the data onto MySQL. Whilst importing the data, MySQL kept returning an error message indicating the datatypes did not match. For example, I set one of my columns as INT when the actual data had commas. To resolve this issue, I cleansed the data by removing special characters such as commas and percentage signs.
 
 ## Results & Findings
 
