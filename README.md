@@ -6,16 +6,6 @@ In this project, I will be looking at the 'Global Country Information Dataset 20
 
 Dataset sourced from: https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023.
 
-## Primary Objectives of Project
-1. Analyze population density and land area to explore spatial distribution patterns and understand the implications of population spread in relation to resources and infrastructure.
-2. Investigate the relationship between the percentage of agricultural land and indicators of food security, drawing connections to sustainability practices and economic stability.
-3. Examine the impact of carbon dioxide emissions on environmental health and climate change, integrating discussions on global policies and their effectiveness.
-4. Explore the interplay between economic indicators such as GDP, tax revenue, and employment with socio-economic outcomes to assess economic health and development strategies.
-5. Study educational enrollment rates across primary and tertiary levels to gauge the progress in human capital development and its impact on economic growth and social advancement.
-6. Analyze healthcare metrics, including infant mortality and life expectancy, to evaluate the well-being and quality of life across different regions.
-7. Examine labor market dynamics, investigating factors such as labor force participation and unemployment rates, to understand their implications on national economic conditions and individual livelihoods.
-8. Investigate urbanization trends to comprehend their social, economic, and environmental consequences, emphasizing the challenges and opportunities of urban growth.
-
 ## Tools 
 MySQL: Primary programming language used for data querying, manipulation and analysis.
 
@@ -26,15 +16,36 @@ The project directory is organised as follows to ensure easy access and manageme
 
 '/data' - Contains the raw CSV files downloaded from Kaggle.
 
-'/Queries' - SQL scripts and other code files used in the analysis.
+'/MySQL Scripts and hypothesis' - This is an excel which refers to all of the SQL queries used for this project and their respective results.
 
-'/PowerBI Visualisation' - PowerBI visualisation file.
+'/PowerBI Visuals' - PowerBI visualisation file.
 
 ## Methodology
 
 Initially, I obtained and downloaded the dataset from Kaggle. After downlaoding the data, I exported the file in Excel and scanned through the dataset, looking for missing columns, inconcistencies which I made sure to clean out before starting my analysis. I then ram basic SQL queries on MySQL to ensure the data has been loaded correctly. Examples of such queries were: SELECT * FROM Global_Countries LIMIT 10;
 
 I ran into a problem when attempting to import the data onto MySQL. Whilst importing the data, MySQL kept returning an error message indicating the datatypes did not match. For example, I set one of my columns as INT when the actual data had empty values or special character. To resolve this issue, I cleansed the data by removing special characters such as commas and percentage signs and replacing empty strings with the 'NULL' value.
+
+## Questions + Hypothesis
+### Economic Development:
+Question: How does GDP correlate with life expectancy across countries?
+
+Hypothesis: Higher GDP is associated with higher life expectancy. This could be as a result of many factors, such as access to better healthcare.
+
+### Environmental Impact:
+Question: Is there a correlation between population density and CO2 emissions:
+
+Hypothesis: Higher population densities are positively correlated with higher CO2 emissions, reflecting the environmental impact of denser human settlements.
+
+### Healthcare Analysis:
+Question: How does the availability of physicians per thousand people impact infant mortality rates?
+
+Hypothesis: Greater availability of physicians correlates with lower infant mortality rates, suggesting better healthcare access results I improved health outcomes. 
+
+### Education and Development
+Question: What relationship exists between primary, tertiary education enrollment and unemployment rate?
+
+Hypothesis: Higher education enrollment are associated with lower unemployment rates, suggesting that better education contributes to improved job opportunities and economic stability.
 
 ## Results & Findings
 
