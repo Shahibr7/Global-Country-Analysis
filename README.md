@@ -32,11 +32,6 @@ Question: How does GDP correlate with life expectancy across countries?
 
 Hypothesis: Higher GDP is associated with higher life expectancy. This could be as a result of many factors, such as access to better healthcare.
 
-### Environmental Impact:
-Question: Is there a correlation between population density and CO2 emissions:
-
-Hypothesis: Higher population densities are positively correlated with higher CO2 emissions, reflecting the environmental impact of denser human settlements.
-
 ### Healthcare Analysis:
 Question: How does the availability of physicians per thousand people impact infant mortality rates?
 
