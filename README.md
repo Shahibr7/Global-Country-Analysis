@@ -1,4 +1,5 @@
 ![image](https://github.com/Shahibr7/Global-Country-Analysis/assets/167986077/e8c7b2c6-bcc3-494c-8e1f-b913660518cf)
+![image](https://github.com/Shahibr7/Global-Country-Analysis/assets/167986077/323822fb-1384-4e7b-8e9e-29023dcd1750)
 ![image](https://github.com/Shahibr7/Global-Country-Analysis/assets/167986077/bce788c3-c688-4c59-8075-7407fe43defd)
 # Global Insights: Analysing Socio-Economic and Environmental Trends
 ## Introduction
