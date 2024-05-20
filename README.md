@@ -13,9 +13,6 @@ PowerBI: For advanced data visualization and analysis.
 
 ## Project Structure
 The project directory is organised as follows to ensure easy access and management of project resources:
-
-'/data' - Contains the raw CSV files downloaded from Kaggle.
-
 '/MySQL Scripts and hypothesis' - This is an excel which refers to all of the SQL queries used for this project and their respective results.
 
 '/PowerBI Visuals' - PowerBI visualisation file.
