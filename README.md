@@ -1,3 +1,5 @@
+file:///C:/Users/shahi/AppData/Local/Temp/Power%20BI%20Desktop/print-job-ec86fd3e-8d03-42a3-939e-9610650a4d21/PowerBI%20Visuals.pdf
+
 # Global Insights: Analysing Socio-Economic and Environmental Trends
 ## Introduction
 Our world is becoming increasingly interconnected through different means such as social media, transportation, cultural exchanges, global trade etc. Understanding the different dynamics of countries globally is key for understanding the challengies and opportunities that shape our present and future.
